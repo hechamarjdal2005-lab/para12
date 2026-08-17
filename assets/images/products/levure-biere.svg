@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAF8F5"/>
+      <stop offset="100%" style="stop-color:#F0EDE8"/>
+    </linearGradient>
+    <linearGradient id="bottle1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5E3C"/>
+      <stop offset="30%" style="stop-color:#A0522D"/>
+      <stop offset="70%" style="stop-color:#8B5E3C"/>
+      <stop offset="100%" style="stop-color:#6B4226"/>
+    </linearGradient>
+    <linearGradient id="cap1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2C2C2C"/>
+      <stop offset="50%" style="stop-color:#404040"/>
+      <stop offset="100%" style="stop-color:#1A1A1A"/>
+    </linearGradient>
+    <filter id="shadow1">
+      <feDropShadow dx="3" dy="5" stdDeviation="4" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg1)"/>
+  <g filter="url(#shadow1)" transform="translate(200,200)">
+    <!-- Bottle body -->
+    <rect x="-55" y="-100" width="110" height="200" rx="12" fill="url(#bottle1)"/>
+    <!-- Bottle neck -->
+    <rect x="-25" y="-145" width="50" height="50" rx="6" fill="#A0522D"/>
+    <!-- Cap -->
+    <rect x="-28" y="-170" width="56" height="30" rx="5" fill="url(#cap1)"/>
+    <!-- Label -->
+    <rect x="-48" y="-70" width="96" height="120" rx="4" fill="#F5F3EE"/>
+    <rect x="-48" y="-70" width="96" height="24" fill="#4E8B61"/>
+    <text x="0" y="-53" font-family="Arial,sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="bold">BIO</text>
+    <line x1="-40" y1="-46" x2="40" y2="-46" stroke="#D8A83E" stroke-width="2"/>
+    <text x="0" y="-28" font-family="Georgia,serif" font-size="10" fill="#4E8B61" text-anchor="middle" font-weight="bold">LEVURE</text>
+    <text x="0" y="-15" font-family="Georgia,serif" font-size="10" fill="#4E8B61" text-anchor="middle" font-weight="bold">DE BIÈRE</text>
+    <text x="0" y="5" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Complément Alimentaire</text>
+    <text x="0" y="20" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Bio · Naturel</text>
+    <rect x="-40" y="30" width="80" height="18" rx="9" fill="#4E8B61"/>
+    <text x="0" y="42" font-family="Arial,sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">120 gélules</text>
+    <!-- Highlight -->
+    <rect x="-50" y="-95" width="15" height="180" rx="7" fill="rgba(255,255,255,0.12)"/>
+  </g>
+</svg>

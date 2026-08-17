@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgcat4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C09040"/>
+      <stop offset="100%" style="stop-color:#A07830"/>
+    </linearGradient>
+    <filter id="glow4">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#FFFFFF" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgcat4)" rx="16"/>
+  <circle cx="350" cy="50" r="80" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="50" cy="350" r="60" fill="#FFFFFF" opacity="0.08"/>
+  <!-- Body cream jar silhouette -->
+  <g filter="url(#glow4)" transform="translate(200,175)" opacity="0.95">
+    <ellipse cx="0" cy="30" rx="65" ry="40" fill="#FFFFFF"/>
+    <rect x="-65" y="-30" width="130" height="60" fill="#FFFFFF"/>
+    <ellipse cx="0" cy="-30" rx="65" ry="40" fill="#FFFFFF"/>
+    <ellipse cx="0" cy="-38" rx="67" ry="16" fill="#D8A83E"/>
+    <rect x="-67" y="-52" width="134" height="16" fill="#D8A83E"/>
+    <ellipse cx="0" cy="-52" rx="67" ry="16" fill="#D8A83E"/>
+    <!-- Oil bottle -->
+    <rect x="80" y="-40" width="24" height="70" rx="5" fill="#FFFFFF"/>
+    <rect x="85" y="-52" width="14" height="16" rx="3" fill="#FFFFFF"/>
+    <ellipse cx="92" cy="-56" rx="8" ry="5" fill="#D8A83E"/>
+  </g>
+  <text x="200" y="330" font-family="Georgia,serif" font-size="28" fill="#FFFFFF" text-anchor="middle" font-weight="bold">CORPS</text>
+  <text x="200" y="358" font-family="Arial,sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">Soin du Corps</text>
+</svg>

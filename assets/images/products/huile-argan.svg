@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFBF0"/>
+      <stop offset="100%" style="stop-color:#F5EDD8"/>
+    </linearGradient>
+    <linearGradient id="bottle6" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D4A020"/>
+      <stop offset="20%" style="stop-color:#E8B830"/>
+      <stop offset="50%" style="stop-color:#F0C840"/>
+      <stop offset="80%" style="stop-color:#E8B830"/>
+      <stop offset="100%" style="stop-color:#B89018"/>
+    </linearGradient>
+    <linearGradient id="oil6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0C840;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#D4A020;stop-opacity:0.9"/>
+    </linearGradient>
+    <filter id="shadow6">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg6)"/>
+  <g filter="url(#shadow6)" transform="translate(200,205)">
+    <!-- Bottle body -->
+    <path d="M-35,-70 L-35,70 Q-35,90 -20,90 L20,90 Q35,90 35,70 L35,-70 Z" fill="url(#bottle6)" opacity="0.85"/>
+    <!-- Oil visible inside -->
+    <path d="M-30,-50 L-30,65 Q-30,82 -18,82 L18,82 Q30,82 30,65 L30,-50 Z" fill="url(#oil6)"/>
+    <!-- Bottle neck -->
+    <rect x="-14" y="-100" width="28" height="35" rx="4" fill="#D4A020"/>
+    <!-- Cork/cap -->
+    <rect x="-16" y="-115" width="32" height="20" rx="4" fill="#8B6914"/>
+    <rect x="-12" y="-118" width="24" height="8" rx="3" fill="#A07818"/>
+    <!-- Label -->
+    <rect x="-28" y="-30" width="56" height="80" rx="3" fill="#F5F3EE" opacity="0.95"/>
+    <text x="0" y="-12" font-family="Arial,sans-serif" font-size="6" fill="#4E8B61" text-anchor="middle" letter-spacing="1">PARAIHSSANE</text>
+    <line x1="-20" y1="-6" x2="20" y2="-6" stroke="#D8A83E" stroke-width="1"/>
+    <text x="0" y="10" font-family="Georgia,serif" font-size="9" fill="#8B6914" text-anchor="middle" font-weight="bold">HUILE</text>
+    <text x="0" y="22" font-family="Georgia,serif" font-size="9" fill="#8B6914" text-anchor="middle" font-weight="bold">D'ARGAN</text>
+    <text x="0" y="36" font-family="Georgia,serif" font-size="10" fill="#D8A83E" text-anchor="middle" font-style="italic">PURE</text>
+    <line x1="-18" y1="42" x2="18" y2="42" stroke="#8B6914" stroke-width="0.5"/>
+    <text x="0" y="54" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">100% Naturel</text>
+    <text x="0" y="64" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">50 ml</text>
+    <!-- Highlight -->
+    <rect x="-32" y="-65" width="8" height="145" rx="4" fill="rgba(255,255,255,0.2)"/>
+  </g>
+</svg>

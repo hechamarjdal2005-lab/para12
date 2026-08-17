@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFAF5"/>
+      <stop offset="100%" style="stop-color:#F5EDE0"/>
+    </linearGradient>
+    <linearGradient id="bottle4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C08030"/>
+      <stop offset="25%" style="stop-color:#D4943A"/>
+      <stop offset="50%" style="stop-color:#E8A840"/>
+      <stop offset="75%" style="stop-color:#D4943A"/>
+      <stop offset="100%" style="stop-color:#A06820"/>
+    </linearGradient>
+    <linearGradient id="dropper4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E8E8E8"/>
+      <stop offset="50%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#D0D0D0"/>
+    </linearGradient>
+    <filter id="shadow4">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg4)"/>
+  <g filter="url(#shadow4)" transform="translate(200,205)">
+    <!-- Bottle body -->
+    <rect x="-40" y="-80" width="80" height="170" rx="10" fill="url(#bottle4)"/>
+    <!-- Bottle neck -->
+    <rect x="-18" y="-115" width="36" height="40" rx="5" fill="#D4943A"/>
+    <!-- Dropper cap -->
+    <ellipse cx="0" cy="-120" rx="22" ry="12" fill="url(#dropper4)" stroke="#CCC" stroke-width="0.5"/>
+    <rect x="-14" y="-140" width="28" height="22" rx="4" fill="url(#dropper4)" stroke="#CCC" stroke-width="0.5"/>
+    <!-- Rubber bulb -->
+    <ellipse cx="0" cy="-148" rx="14" ry="10" fill="#D8A83E"/>
+    <!-- Label -->
+    <rect x="-34" y="-60" width="68" height="110" rx="4" fill="#F5F3EE"/>
+    <rect x="-34" y="-60" width="68" height="20" fill="#4E8B61"/>
+    <text x="0" y="-46" font-family="Arial,sans-serif" font-size="7" fill="#FFFFFF" text-anchor="middle" font-weight="bold">PARAIHSSANE</text>
+    <line x1="-28" y1="-40" x2="28" y2="-40" stroke="#D8A83E" stroke-width="1.5"/>
+    <text x="0" y="-22" font-family="Georgia,serif" font-size="9" fill="#4E8B61" text-anchor="middle" font-weight="bold">SÉRUM</text>
+    <text x="0" y="-8" font-family="Georgia,serif" font-size="10" fill="#D8A83E" text-anchor="middle" font-weight="bold">VITAMINE C</text>
+    <line x1="-20" y1="2" x2="20" y2="2" stroke="#4E8B61" stroke-width="0.5"/>
+    <text x="0" y="16" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Anti-Âge · Éclat</text>
+    <text x="0" y="28" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">30 ml</text>
+    <!-- Highlight -->
+    <rect x="-36" y="-75" width="10" height="155" rx="5" fill="rgba(255,255,255,0.15)"/>
+  </g>
+</svg>

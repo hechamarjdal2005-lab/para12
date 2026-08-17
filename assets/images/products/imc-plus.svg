@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAF8F5"/>
+      <stop offset="100%" style="stop-color:#F0EDE8"/>
+    </linearGradient>
+    <linearGradient id="box2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="40%" style="stop-color:#F8F8F8"/>
+      <stop offset="100%" style="stop-color:#E8E8E8"/>
+    </linearGradient>
+    <filter id="shadow2">
+      <feDropShadow dx="3" dy="5" stdDeviation="4" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg2)"/>
+  <g filter="url(#shadow2)" transform="translate(200,200)">
+    <!-- Box body -->
+    <rect x="-70" y="-110" width="140" height="220" rx="6" fill="url(#box2)" stroke="#E0E0E0" stroke-width="1"/>
+    <!-- Top green stripe -->
+    <rect x="-70" y="-110" width="140" height="40" rx="6" fill="#4E8B61"/>
+    <rect x="-70" y="-80" width="140" height="10" fill="#4E8B61"/>
+    <!-- Gold accent line -->
+    <rect x="-70" y="-70" width="140" height="3" fill="#D8A83E"/>
+    <!-- Product name area -->
+    <text x="0" y="-40" font-family="Arial,sans-serif" font-size="9" fill="#4E8B61" text-anchor="middle" letter-spacing="3">PARAIHSSANE</text>
+    <text x="0" y="-15" font-family="Georgia,serif" font-size="18" fill="#4E8B61" text-anchor="middle" font-weight="bold">IMC PLUS</text>
+    <text x="0" y="5" font-family="Georgia,serif" font-size="13" fill="#D8A83E" text-anchor="middle" font-style="italic">BEAUTÉ</text>
+    <line x1="-40" y1="15" x2="40" y2="15" stroke="#4E8B61" stroke-width="1"/>
+    <text x="0" y="35" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">Complément Alimentaire</text>
+    <text x="0" y="50" font-family="Arial,sans-serif" font-size="8" fill="#666" text-anchor="middle">pour la Peau et les Cheveux</text>
+    <!-- Bottom section -->
+    <rect x="-70" y="60" width="140" height="50" rx="0 0 6 6" fill="#4E8B61" opacity="0.1"/>
+    <text x="0" y="80" font-family="Arial,sans-serif" font-size="7" fill="#4E8B61" text-anchor="middle">60 gélules · Cures de 2 mois</text>
+    <text x="0" y="95" font-family="Arial,sans-serif" font-size="7" fill="#999" text-anchor="middle">Fabriqué au Maroc</text>
+    <!-- Side green accent -->
+    <rect x="-70" y="-110" width="8" height="220" rx="6 0 0 6" fill="#4E8B61" opacity="0.3"/>
+  </g>
+</svg>

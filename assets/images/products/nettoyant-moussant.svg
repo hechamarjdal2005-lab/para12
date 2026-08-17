@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg16" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5FAFE"/>
+      <stop offset="100%" style="stop-color:#E5F0F8"/>
+    </linearGradient>
+    <linearGradient id="bottle16" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E8F4F8"/>
+      <stop offset="30%" style="stop-color:#F0F8FC"/>
+      <stop offset="70%" style="stop-color:#E8F4F8"/>
+      <stop offset="100%" style="stop-color:#D0E8F0"/>
+    </linearGradient>
+    <linearGradient id="pump16" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4E8B61"/>
+      <stop offset="50%" style="stop-color:#5A9E72"/>
+      <stop offset="100%" style="stop-color:#3D7A50"/>
+    </linearGradient>
+    <filter id="shadow16">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg16)"/>
+  <g filter="url(#shadow16)" transform="translate(200,200)">
+    <!-- Bottle body -->
+    <rect x="-48" y="-85" width="96" height="185" rx="14" fill="url(#bottle16)" stroke="#C8DDE8" stroke-width="0.5"/>
+    <!-- Pump -->
+    <rect x="-16" y="-130" width="32" height="50" rx="6" fill="url(#pump16)"/>
+    <rect x="-22" y="-142" width="44" height="16" rx="8" fill="url(#pump16)"/>
+    <rect x="12" y="-138" width="30" height="7" rx="3.5" fill="#3D7A50"/>
+    <!-- Label -->
+    <rect x="-40" y="-65" width="80" height="130" rx="6" fill="#F5F3EE" opacity="0.92"/>
+    <rect x="-40" y="-65" width="80" height="20" fill="#4E8B61"/>
+    <text x="0" y="-50" font-family="Arial,sans-serif" font-size="6" fill="#FFFFFF" text-anchor="middle" font-weight="bold">PARAIHSSANE</text>
+    <line x1="-30" y1="-45" x2="30" y2="-45" stroke="#D8A83E" stroke-width="1"/>
+    <text x="0" y="-25" font-family="Georgia,serif" font-size="10" fill="#4E8B61" text-anchor="middle" font-weight="bold">NETTOYANT</text>
+    <text x="0" y="-8" font-family="Georgia,serif" font-size="12" fill="#3D7A50" text-anchor="middle" font-weight="bold">MOUSSANT</text>
+    <line x1="-22" y1="0" x2="22" y2="0" stroke="#4E8B61" stroke-width="0.5"/>
+    <text x="0" y="16" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Doux · Purifiant</text>
+    <text x="0" y="30" font-family="Arial,sans-serif" font-size="6" fill="#666" text-anchor="middle">Visage & Corps</text>
+    <rect x="-24" y="38" width="48" height="16" rx="8" fill="#4E8B61"/>
+    <text x="0" y="49" font-family="Arial,sans-serif" font-size="6" fill="#FFFFFF" text-anchor="middle" font-weight="bold">200 ml</text>
+    <!-- Bubbles decoration -->
+    <circle cx="28" cy="-10" r="4" fill="#4E8B61" opacity="0.15"/>
+    <circle cx="32" cy="-20" r="3" fill="#4E8B61" opacity="0.1"/>
+    <circle cx="26" cy="-25" r="2" fill="#4E8B61" opacity="0.12"/>
+    <!-- Highlight -->
+    <rect x="-44" y="-80" width="10" height="170" rx="5" fill="rgba(255,255,255,0.2)"/>
+  </g>
+</svg>

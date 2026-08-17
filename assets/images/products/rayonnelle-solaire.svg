@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8F0"/>
+      <stop offset="100%" style="stop-color:#F5E6D0"/>
+    </linearGradient>
+    <linearGradient id="tube3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5A623"/>
+      <stop offset="30%" style="stop-color:#FFB84D"/>
+      <stop offset="70%" style="stop-color:#F5A623"/>
+      <stop offset="100%" style="stop-color:#E09520"/>
+    </linearGradient>
+    <linearGradient id="cap3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="50%" style="stop-color:#F0F0F0"/>
+      <stop offset="100%" style="stop-color:#E0E0E0"/>
+    </linearGradient>
+    <filter id="shadow3">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg3)"/>
+  <g filter="url(#shadow3)" transform="translate(200,200)">
+    <!-- Tube body -->
+    <path d="M-50,-120 L-50,80 Q-50,100 -30,100 L30,100 Q50,100 50,80 L50,-120 Z" fill="url(#tube3)"/>
+    <!-- Tube cap -->
+    <rect x="-30" y="-155" width="60" height="40" rx="8" fill="url(#cap3)" stroke="#DDD" stroke-width="1"/>
+    <!-- Crimp at bottom -->
+    <rect x="-50" y="90" width="100" height="15" rx="3" fill="#E09520"/>
+    <!-- White label area -->
+    <rect x="-42" y="-100" width="84" height="170" rx="4" fill="#FFFFFF" opacity="0.92"/>
+    <!-- Label content -->
+    <rect x="-42" y="-100" width="84" height="22" fill="#FF8C00"/>
+    <text x="0" y="-84" font-family="Arial,sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">PARAIHSSANE</text>
+    <text x="0" y="-60" font-family="Georgia,serif" font-size="11" fill="#FF8C00" text-anchor="middle" font-weight="bold">RAYONNELLE</text>
+    <text x="0" y="-42" font-family="Arial,sans-serif" font-size="14" fill="#FF6600" text-anchor="middle" font-weight="bold">SPF 50+</text>
+    <line x1="-30" y1="-32" x2="30" y2="-32" stroke="#FF8C00" stroke-width="1.5"/>
+    <text x="0" y="-18" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Protection Solaire Haute</text>
+    <text x="0" y="-6" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Eau Résistante</text>
+    <!-- Sun icon -->
+    <circle cx="0" cy="22" r="12" fill="#FFD700" opacity="0.8"/>
+    <circle cx="0" cy="22" r="8" fill="#FFA500"/>
+    <!-- Volume -->
+    <text x="0" y="65" font-family="Arial,sans-serif" font-size="7" fill="#999" text-anchor="middle">200 ml</text>
+    <!-- Highlight -->
+    <rect x="-45" y="-115" width="12" height="195" rx="6" fill="rgba(255,255,255,0.2)"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="socBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D8A83E"/>
+      <stop offset="100%" style="stop-color:#C09828"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#socBg2)"/>
+  <circle cx="350" cy="50" r="80" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="50" cy="350" r="60" fill="#FFFFFF" opacity="0.08"/>
+  <!-- Products: Argan oil + Shea butter -->
+  <g transform="translate(150,180)">
+    <!-- Argan oil bottle -->
+    <g transform="translate(0,0)">
+      <path d="M-22,-55 L-22,45 Q-22,55 -12,55 L12,55 Q22,55 22,45 L22,-55 Z" fill="#E8B830" opacity="0.85"/>
+      <rect x="-9" y="-72" width="18" height="20" rx="3" fill="#D4A020"/>
+      <rect x="-11" y="-82" width="22" height="14" rx="3" fill="#8B6914"/>
+      <rect x="-17" y="-35" width="34" height="60" rx="2" fill="#F5F3EE" opacity="0.9"/>
+      <text x="0" y="-18" font-family="Georgia,serif" font-size="7" fill="#8B6914" text-anchor="middle" font-weight="bold">HUILE</text>
+      <text x="0" y="-8" font-family="Georgia,serif" font-size="6" fill="#8B6914" text-anchor="middle">D'ARGAN</text>
+      <text x="0" y="5" font-family="Arial,sans-serif" font-size="5" fill="#666" text-anchor="middle">50 ml</text>
+    </g>
+  </g>
+  <g transform="translate(270,185)">
+    <!-- Shea butter jar -->
+    <ellipse cx="0" cy="22" rx="40" ry="25" fill="#C09040"/>
+    <rect x="-40" y="-20" width="80" height="42" fill="#C09040"/>
+    <ellipse cx="0" cy="-20" rx="40" ry="25" fill="#C09040"/>
+    <ellipse cx="0" cy="-26" rx="42" ry="12" fill="#F5E8C0"/>
+    <rect x="-42" y="-35" width="84" height="12" fill="#F5E8C0"/>
+    <ellipse cx="0" cy="-35" rx="42" ry="12" fill="#F5E8C0"/>
+    <rect x="-28" y="-8" width="56" height="25" rx="2" fill="#F5F3EE" opacity="0.9"/>
+    <text x="0" y="6" font-family="Georgia,serif" font-size="7" fill="#8B6914" text-anchor="middle" font-weight="bold">BEURRE DE KARITÉ</text>
+  </g>
+  <text x="200" y="320" font-family="Georgia,serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">TRÉSORS DU MAROC</text>
+  <text x="200" y="345" font-family="Arial,sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" opacity="0.9">Argan · Karité · 100% Naturel</text>
+  <rect x="150" y="360" width="100" height="2" fill="#FFFFFF" opacity="0.4"/>
+</svg>

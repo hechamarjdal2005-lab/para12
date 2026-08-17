@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0FAF0"/>
+      <stop offset="100%" style="stop-color:#E0F0E0"/>
+    </linearGradient>
+    <linearGradient id="bottle10" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3D8B40"/>
+      <stop offset="30%" style="stop-color:#4A9E50"/>
+      <stop offset="70%" style="stop-color:#3D8B40"/>
+      <stop offset="100%" style="stop-color:#2D7A30"/>
+    </linearGradient>
+    <linearGradient id="gel10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7FD880;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#4A9E50;stop-opacity:0.7"/>
+    </linearGradient>
+    <filter id="shadow10">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg10)"/>
+  <g filter="url(#shadow10)" transform="translate(200,200)">
+    <!-- Bottle body -->
+    <rect x="-50" y="-90" width="100" height="195" rx="16" fill="url(#bottle10)"/>
+    <!-- Transparent window showing gel -->
+    <rect x="-38" y="-70" width="76" height="140" rx="10" fill="url(#gel10)"/>
+    <!-- Cap -->
+    <rect x="-22" y="-130" width="44" height="45" rx="8" fill="#2D7A30"/>
+    <rect x="-26" y="-138" width="52" height="14" rx="7" fill="#1A5A20"/>
+    <!-- Label -->
+    <rect x="-42" y="-50" width="84" height="110" rx="6" fill="#F5F3EE" opacity="0.92"/>
+    <text x="0" y="-30" font-family="Arial,sans-serif" font-size="7" fill="#3D8B40" text-anchor="middle" letter-spacing="1">PARAIHSSANE</text>
+    <line x1="-28" y1="-24" x2="28" y2="-24" stroke="#D8A83E" stroke-width="1"/>
+    <text x="0" y="-8" font-family="Georgia,serif" font-size="12" fill="#3D8B40" text-anchor="middle" font-weight="bold">GEL DOUCHE</text>
+    <text x="0" y="10" font-family="Georgia,serif" font-size="16" fill="#2D7A30" text-anchor="middle" font-weight="bold">ALOE VERA</text>
+    <line x1="-22" y1="18" x2="22" y2="18" stroke="#D8A83E" stroke-width="0.8"/>
+    <text x="0" y="34" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">Hydratant · Apaisant</text>
+    <text x="0" y="48" font-family="Arial,sans-serif" font-size="7" fill="#666" text-anchor="middle">500 ml</text>
+    <!-- Aloe leaf decoration -->
+    <path d="M28,-5 Q35,15 28,35 Q20,15 28,-5" fill="#4A9E50" opacity="0.4"/>
+    <!-- Highlight -->
+    <rect x="-46" y="-85" width="10" height="175" rx="5" fill="rgba(255,255,255,0.15)"/>
+  </g>
+</svg>

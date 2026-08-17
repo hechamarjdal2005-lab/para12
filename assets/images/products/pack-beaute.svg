@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8F0"/>
+      <stop offset="100%" style="stop-color:#F5E6D0"/>
+    </linearGradient>
+    <linearGradient id="box8" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4E8B61"/>
+      <stop offset="50%" style="stop-color:#5A9E72"/>
+      <stop offset="100%" style="stop-color:#3D7A50"/>
+    </linearGradient>
+    <filter id="shadow8">
+      <feDropShadow dx="3" dy="5" stdDeviation="6" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg8)"/>
+  <g filter="url(#shadow8)" transform="translate(200,200)">
+    <!-- Gift box base -->
+    <rect x="-100" y="-40" width="200" height="120" rx="6" fill="url(#box8)"/>
+    <!-- Box lid -->
+    <rect x="-105" y="-70" width="210" height="35" rx="6" fill="#3D7A50"/>
+    <rect x="-105" y="-50" width="210" height="8" fill="#D8A83E"/>
+    <!-- Ribbon -->
+    <rect x="-8" y="-70" width="16" height="120" fill="#D8A83E"/>
+    <rect x="-105" y="-58" width="210" height="12" fill="#D8A83E"/>
+    <!-- Bow -->
+    <ellipse cx="-15" cy="-78" rx="18" ry="12" fill="#D8A83E"/>
+    <ellipse cx="15" cy="-78" rx="18" ry="12" fill="#D8A83E"/>
+    <circle cx="0" cy="-78" r="8" fill="#C09828"/>
+    <!-- Product silhouettes peeking out -->
+    <!-- Bottle -->
+    <rect x="-80" y="-100" width="24" height="65" rx="5" fill="#F5F3EE" opacity="0.9"/>
+    <rect x="-74" y="-115" width="12" height="20" rx="3" fill="#F5F3EE" opacity="0.9"/>
+    <!-- Jar -->
+    <ellipse cx="10" cy="-75" rx="28" ry="18" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="-18" y="-90" width="56" height="18" fill="#FFFFFF" opacity="0.9"/>
+    <!-- Tube -->
+    <rect x="45" y="-105" width="20" height="60" rx="4" fill="#FFB84D" opacity="0.9"/>
+    <rect x="48" y="-118" width="14" height="16" rx="3" fill="#FFFFFF" opacity="0.9"/>
+    <!-- Text -->
+    <text x="0" y="110" font-family="Georgia,serif" font-size="16" fill="#4E8B61" text-anchor="middle" font-weight="bold">PACK BEAUTÉ</text>
+    <text x="0" y="130" font-family="Arial,sans-serif" font-size="9" fill="#D8A83E" text-anchor="middle">Coffret Soin Complet</text>
+  </g>
+</svg>

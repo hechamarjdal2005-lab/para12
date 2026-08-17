@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgcat1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4E8B61"/>
+      <stop offset="100%" style="stop-color:#3D7A50"/>
+    </linearGradient>
+    <filter id="glow1">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#FFFFFF" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgcat1)" rx="16"/>
+  <!-- Subtle pattern -->
+  <circle cx="350" cy="50" r="80" fill="#FFFFFF" opacity="0.05"/>
+  <circle cx="50" cy="350" r="60" fill="#FFFFFF" opacity="0.05"/>
+  <!-- Face cream jar silhouette -->
+  <g filter="url(#glow1)" transform="translate(200,180)" opacity="0.95">
+    <!-- Jar body -->
+    <ellipse cx="0" cy="35" rx="70" ry="45" fill="#FFFFFF"/>
+    <rect x="-70" y="-35" width="140" height="70" fill="#FFFFFF"/>
+    <ellipse cx="0" cy="-35" rx="70" ry="45" fill="#FFFFFF"/>
+    <!-- Lid -->
+    <ellipse cx="0" cy="-42" rx="72" ry="18" fill="#D8A83E"/>
+    <rect x="-72" y="-58" width="144" height="18" fill="#D8A83E"/>
+    <ellipse cx="0" cy="-58" rx="72" ry="18" fill="#D8A83E"/>
+    <!-- Small dropper bottle -->
+    <rect x="85" y="-20" width="28" height="65" rx="6" fill="#FFFFFF"/>
+    <rect x="91" y="-38" width="16" height="22" rx="3" fill="#FFFFFF"/>
+    <ellipse cx="99" cy="-42" rx="10" ry="6" fill="#D8A83E"/>
+  </g>
+  <!-- Label -->
+  <text x="200" y="330" font-family="Georgia,serif" font-size="28" fill="#FFFFFF" text-anchor="middle" font-weight="bold">VISAGE</text>
+  <text x="200" y="358" font-family="Arial,sans-serif" font-size="14" fill="#D8A83E" text-anchor="middle">Soin du Visage</text>
+</svg>
